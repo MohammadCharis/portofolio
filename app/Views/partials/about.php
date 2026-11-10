@@ -8,9 +8,9 @@
   </div>
 
   <!-- Photo 3: 3-Column Hero Bio with Interactive Spider-Man Cursor Portrait -->
-  <div class="grid grid-cols-1 lg:grid-cols-12 items-center gap-10 lg:gap-6">
+  <div class="grid grid-cols-1 lg:grid-cols-12 items-center gap-10 lg:gap-16">
     <!-- Left Column: Hi, I'm Mohammad Charis + View CV -->
-    <div class="lg:col-span-4 flex flex-col items-start text-left order-2 lg:order-1">
+    <div class="lg:col-span-4 flex flex-col items-start text-left order-2 lg:order-1 lg:min-h-[308px]">
       <span class="text-3xl sm:text-4xl md:text-[2.75rem] font-extrabold text-[#2563eb] leading-tight mb-1">
         Hi, I'm
       </span>
@@ -61,7 +61,7 @@
     </div>
 
     <!-- Right Column: Paragraph Description + View Projects -->
-    <div class="lg:col-span-4 flex flex-col items-start text-left order-3 lg:pl-4">
+    <div class="lg:col-span-4 flex flex-col items-start text-left order-3 lg:pl-4 lg:min-h-[300px]">
       <p class="text-slate-200/90 text-base sm:text-[1.08rem] leading-[1.75] font-normal mb-7">
         Sebagai mahasiswa Fakultas Sain dan Teknologi Institut Teknologi Mojosari, Aku berfokus pada pengembangan
         teknologi yang tidak hanya fungsional, tetapi juga menghadirkan pengalaman digital yang menarik dan berdampak.

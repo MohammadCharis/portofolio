@@ -134,14 +134,14 @@ function highlightTimeline(el) {
     const role = item.querySelector('.timeline-role');
     if (item === el) {
       item.classList.remove('opacity-60');
-      badge.className = 'timeline-badge absolute -left-14 top-0 w-11 h-11 rounded-full flex items-center justify-center font-extrabold text-sm transition-colors duration-200 bg-white text-slate-950 border-[4px] border-[#45494e]';
+      badge.className = 'timeline-badge absolute -left-14 top-0 w-11 h-11 rounded-full flex items-center justify-center font-extrabold text-xs transition-colors duration-200 bg-white text-slate-950 border-[4px] border-[#45494e]';
       org.classList.remove('text-slate-400');
       org.classList.add('text-[#e2e8f0]');
       role.classList.remove('text-slate-400');
       role.classList.add('text-white');
     } else {
       item.classList.add('opacity-60');
-      badge.className = 'timeline-badge absolute -left-14 top-0 w-11 h-11 rounded-full flex items-center justify-center font-extrabold text-sm transition-colors duration-200 bg-[#0b111e] text-slate-500 border-[2px] border-[#232b3a]';
+      badge.className = 'timeline-badge absolute -left-14 top-0 w-11 h-11 rounded-full flex items-center justify-center font-extrabold text-xs transition-colors duration-200 bg-[#0b111e] text-slate-500 border-[2px] border-[#232b3a]';
       org.classList.remove('text-[#e2e8f0]');
       org.classList.add('text-slate-400');
       role.classList.remove('text-white');
