@@ -227,31 +227,31 @@ const PORTFOLIO_DATA = {
     {
       title: 'Certificate of Appreciation — GDGoC UB Community Member',
       desc: 'Sertifikat apresiasi sebagai active Community Member Google Developer Groups on Campus Universitas Brawijaya 2025–2026.',
-      img: BASE_IMG + 'cert_gdgoc.jpg',
+      img: BASE_IMG + 'sertifikat_4.png',
       tag: 'Certificate'
     },
     {
       title: 'Sertifikat Kompetensi — Kecerdasan Buatan Generatif (IDEA-AI)',
       desc: 'Sertifikat kompetensi Institute for Data Innovation and Artificial Intelligence (IDEA-AI Australia) dalam Kecerdasan Buatan Generatif.',
-      img: BASE_IMG + 'cert_idea_ai.jpg',
+      img: BASE_IMG + 'sertifikat_5.png',
       tag: 'Certificate'
     },
     {
       title: 'Sertifikat Kompetensi — Belajar Dasar Data Science (Dicoding)',
       desc: 'Sertifikat kelulusan kompetensi Belajar Dasar Data Science oleh Dicoding Indonesia.',
-      img: BASE_IMG + 'cert_dicoding.jpg',
+      img: BASE_IMG + 'sertifikat_2.png',
       tag: 'Certificate'
     },
     {
       title: 'Google Student Ambassador 2026 — Google Indonesia',
       desc: 'Sertifikasi resmi Google Indonesia sebagai Google Student Ambassador perwakilan Universitas Brawijaya.',
-      img: BASE_IMG + 'cert_filkom_1.jpg',
+      img: BASE_IMG + 'sertifikat_3.jpeg',
       tag: 'Certificate'
     },
     {
       title: 'Staff Technology & UI/UX Designer — Hology 9.0 FILKOM UB',
       desc: 'Sertifikat kepanitiaan nasional House of Technology (Hology 9.0) Fakultas Ilmu Komputer Universitas Brawijaya.',
-      img: BASE_IMG + 'cert_gdgoc.jpg',
+      img: BASE_IMG + 'sertifikat_1.jpeg',
       tag: 'Certificate'
     },
     {
