@@ -1,11 +1,11 @@
 <!-- =================================================================== -->
   <!-- 6. LIGHT PORTFOLIO SHOWCASE SECTION (Exact Match to image_991475)   -->
   <!-- =================================================================== -->
-  <section id="portfolio" class="topo-light-bg relative z-30 h-screen min-h-[640px] max-h-[920px] flex flex-col justify-between pt-14 pb-8 text-slate-900 overflow-hidden">
+  <section id="portfolio" class="topo-light-bg relative z-30 min-h-screen flex flex-col justify-between pt-14 pb-16 text-slate-900 overflow-hidden">
     <!-- Top Area: Watermark "Portofolio" right behind Navbar + White Tab Bar -->
     <div class="relative w-full">
       <!-- Watermark "Portofolio" overlapping bottom of fixed navbar (exact match to image_991475.png) -->
-      <div class="text-center pt-1 mb-3 select-none pointer-events-none">
+      <div class="text-center pt-1 mb-12 select-none pointer-events-none">
         <h2 class="text-[2.6rem] sm:text-[3.25rem] font-extrabold text-[#9ca3af]/80 tracking-tight leading-none">
           Portofolio
         </h2>
@@ -68,7 +68,7 @@
     </div>
 
     <!-- Horizontal Carousel Container with Left/Right Floating Blue Buttons (Exact match to image_991475.png) -->
-    <div class="relative w-full max-w-[1560px] mx-auto my-auto">
+    <div class="relative w-full max-w-[1560px] mx-auto mt-8 mb-auto">
       <!-- Left Floating Blue Arrow Button -->
       <button
         onclick="scrollCarousel(-1)"
