@@ -81,7 +81,7 @@
             <!-- Bottom Text & Squircle "ooo" Button -->
             <div class="absolute inset-x-0 bottom-0 p-7 sm:p-8 flex items-end justify-between">
               <div>
-                <div class="text-[2.6rem] font-extrabold text-white leading-none mb-1.5 tracking-tight">6</div>
+                <div class="text-[2.6rem] font-extrabold text-white leading-none mb-1.5 tracking-tight">4</div>
                 <div class="folder-count-serif text-[1.05rem] font-bold text-slate-300/95">Projects</div>
               </div>
               <div class="
@@ -116,19 +116,29 @@
           <!-- Layer 2: 3 Fan-Out Certificate Preview Images Inside Folder -->
           <div class="absolute inset-x-[9%] top-[33%] bottom-[8%] z-10 flex items-start justify-center pointer-events-none">
             <img
-              src="<?= base_url('assets/images/cert_preview.jpg') ?>"
+              src="<?= base_url('assets/images/sertifikat_4.png') ?>"
               alt="Certificate 1"
               class="folder-preview-item preview-1 absolute top-0 w-[94%] h-[92%] object-cover object-top rounded-[16px] border border-white/25 shadow-lg"
             />
             <img
-              src="<?= base_url('assets/images/award_filkom_1.jpg') ?>"
+              src="<?= base_url('assets/images/sertifikat_1.jpeg') ?>"
               alt="Certificate 2"
               class="folder-preview-item preview-2 absolute top-0 w-[96%] h-[92%] object-cover object-top rounded-[16px] border border-white/30 shadow-xl"
             />
             <img
-              src="<?= base_url('assets/images/cert_filkom_1.jpg') ?>"
+              src="<?= base_url('assets/images/sertifikat_2.png') ?>"
               alt="Certificate 3"
               class="folder-preview-item preview-3 absolute top-0 w-[98%] h-[92%] object-cover object-top rounded-[16px] border border-white/35 shadow-2xl"
+            />
+            <img
+              src="<?= base_url('assets/images/sertifikat_3.jpeg') ?>"
+              alt="Certificate 3"
+              class="folder-preview-item preview-4 absolute top-0 w-[98%] h-[92%] object-cover object-top rounded-[16px] border border-white/35 shadow-2xl"
+            />
+            <img
+              src="<?= base_url('assets/images/sertifikat_5.png') ?>"
+              alt="Certificate 3"
+              class="folder-preview-item preview-5 absolute top-0 w-[98%] h-[92%] object-cover object-top rounded-[16px] border border-white/35 shadow-2xl"
             />
           </div>
 
@@ -147,7 +157,7 @@
 
             <div class="absolute inset-x-0 bottom-0 p-7 sm:p-8 flex items-end justify-between">
               <div>
-                <div class="text-[2.6rem] font-extrabold text-white leading-none mb-1.5 tracking-tight">6</div>
+                <div class="text-[2.6rem] font-extrabold text-white leading-none mb-1.5 tracking-tight">5</div>
                 <div class="folder-count-serif text-[1.05rem] font-bold text-slate-300/95">Certificates</div>
               </div>
               <div class="

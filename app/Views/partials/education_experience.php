@@ -11,7 +11,7 @@
           </h3>
           <div id="edu-timeline-list" class="relative pl-14 space-y-11 before:content-[''] before:absolute before:left-[21px] before:top-4 before:bottom-6 before:w-[2px] before:bg-[#1e2636]">
 
-            <!-- Education 1: Universitas Brawijaya (Exact match to image_99237a.png: solid grey ring, NO glow) -->
+            <!-- Education 1: Institut Teknologi Mojosari (Exact match to image_99237a.png: solid grey ring, NO glow) -->
             <div class="timeline-item group relative cursor-pointer" data-active="true" onclick="highlightTimeline(this)" onmouseenter="highlightTimeline(this)">
               <div class="
                 timeline-badge absolute -left-14 top-0 w-11 h-11 rounded-full flex items-center justify-center
@@ -24,24 +24,24 @@
               <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
                 <div class="flex items-center gap-3.5">
                   <img
-                    src="<?= base_url('assets/images/logo_ub.webp') ?>"
-                    alt="Universitas Brawijaya"
-                    class="w-10 h-10 rounded-xl object-cover border border-white/10 bg-[#0c1424] flex-shrink-0"
+                    src="<?= base_url('assets/images/ITM-Nganjuk.png') ?>"
+                    alt="Institut Teknologi Mojosari"
+                    class="w-10 h-10 rounded-xl object-contain p-1 border-white/10 bg-[#0c1424] flex-shrink-0"
                   />
                   <span class="text-sm sm:text-[1rem] font-extrabold text-[#e2e8f0] timeline-org transition-colors">
-                    Universitas Brawijaya
+                    Institut Teknologi Mojosari
                   </span>
                 </div>
                 <span class="px-3 py-1 rounded-full text-[10px] font-semibold bg-[#111927] text-slate-400 border border-white/10">
-                  2025 – Present
+                  2024 – Present
                 </span>
               </div>
 
               <h4 class="text-base sm:text-[1.05rem] font-extrabold text-white mb-1.5 timeline-role transition-colors">
-                Information Technology Education
+                Information System
               </h4>
               <div class="flex flex-wrap items-center gap-2 text-[11px] sm:text-xs text-slate-400 timeline-meta">
-                <span>Faculty of Computer Science (FILKOM UB)</span>
+                <span>Faculty of Science and Technology (FST ITM)</span>
                 <span>•</span>
                 <span class="px-2.5 py-0.5 rounded-md bg-[#111927] text-slate-300 border border-white/10 text-[10px] font-medium">
                   Undergraduate
@@ -49,7 +49,7 @@
               </div>
             </div>
 
-            <!-- Education 2: SMKN WINONGAN -->
+            <!-- Education 2: SMK -->
             <div class="timeline-item group relative cursor-pointer opacity-60" data-active="false" onclick="highlightTimeline(this)" onmouseenter="highlightTimeline(this)">
               <div class="
                 timeline-badge absolute -left-14 top-0 w-11 h-11 rounded-full flex items-center justify-center
@@ -62,12 +62,12 @@
               <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
                 <div class="flex items-center gap-3.5">
                   <img
-                    src="<?= base_url('assets/images/logo_smk.webp') ?>"
+                    src="<?= base_url('assets/images/logo smk.png') ?>"
                     alt="SMKN Winongan"
-                    class="w-10 h-10 rounded-xl object-cover border border-white/10 bg-[#0c1424] flex-shrink-0"
+                    class="w-10 h-10 rounded-xl object-contain border p-1 border-white/10 bg-[#0c1424] flex-shrink-0"
                   />
                   <span class="text-sm sm:text-[1rem] font-extrabold text-slate-400 timeline-org transition-colors">
-                    SMKN WINONGAN
+                    SMK NU Pace
                   </span>
                 </div>
                 <span class="px-3 py-1 rounded-full text-[10px] font-semibold bg-[#0d1420] text-slate-500 border border-white/5">

@@ -17,7 +17,7 @@
             type="text"
             id="contact-name"
             required
-            placeholder="Masukkan nama kamu"
+            placeholder="Mohammad Charis"
             class="w-full px-4 py-3 rounded-xl bg-slate-900/90 border border-white/10 text-white text-sm focus:outline-none focus:border-blue-500"
           />
         </div>
