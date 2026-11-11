@@ -47,17 +47,17 @@
           <!-- Layer 2: 3 Fan-Out Project Preview Images Inside Folder -->
           <div class="absolute inset-x-[9%] top-[33%] bottom-[8%] z-10 flex items-start justify-center pointer-events-none">
             <img
-              src="<?= base_url('assets/images/proj_hology.jpg') ?>"
+              src="<?= base_url('assets/images/sikha.jpg') ?>"
               alt="Project 1"
               class="folder-preview-item preview-1 absolute top-0 w-[94%] h-[92%] object-cover rounded-[16px] border border-white/25 shadow-lg"
             />
             <img
-              src="<?= base_url('assets/images/proj_risetin.jpg') ?>"
+              src="<?= base_url('assets/images/alumni.png') ?>"
               alt="Project 2"
               class="folder-preview-item preview-2 absolute top-0 w-[96%] h-[92%] object-cover rounded-[16px] border border-white/30 shadow-xl"
             />
             <img
-              src="<?= base_url('assets/images/proj_rujukcepat.jpg') ?>"
+              src="<?= base_url('assets/images/sikha.jpg') ?>"
               alt="Project 3"
               class="folder-preview-item preview-3 absolute top-0 w-[98%] h-[92%] object-cover rounded-[16px] border border-white/35 shadow-2xl"
             />
