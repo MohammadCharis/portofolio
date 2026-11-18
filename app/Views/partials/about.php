@@ -62,7 +62,7 @@
 
     <!-- Right Column: Paragraph Description + View Projects -->
     <div class="lg:col-span-4 flex flex-col items-start text-left order-3 lg:pl-4 lg:min-h-[300px]">
-      <p class="text-slate-200/90 text-base sm:text-[1.08rem] leading-[1.75] font-normal mb-7">
+      <p class="text-slate-200/90 text-base sm:text-base leading-[1.75] font-normal mb-7">
         Sebagai mahasiswa Fakultas Sain dan Teknologi Institut Teknologi Mojosari, Aku berfokus pada pengembangan
         teknologi yang tidak hanya fungsional, tetapi juga menghadirkan pengalaman digital yang menarik dan berdampak.
       </p>

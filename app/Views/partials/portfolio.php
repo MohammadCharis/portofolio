@@ -6,7 +6,7 @@
     <div class="relative w-full">
       <!-- Watermark "Portofolio" overlapping bottom of fixed navbar (exact match to image_991475.png) -->
       <div class="text-center pt-1 mb-12 select-none pointer-events-none">
-        <h2 class="text-[2.6rem] sm:text-[3.25rem] font-extrabold text-[#9ca3af]/80 tracking-tight leading-none">
+        <h2 class="text-[2.6rem] sm:text-[3.25rem] font-extrabold text-slate-900 tracking-tight leading-none">
           Portofolio
         </h2>
       </div>
@@ -27,7 +27,9 @@
               bg-[#2563eb] text-white shadow-[0_6px_20px_rgba(37,99,235,0.4)]
             "
           >
-            <span class="font-mono text-xs font-extrabold">&lt;&gt;</span>
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m-6-6 6 6-6 6" />
+            </svg>
             <span>Projects</span>
           </button>
 

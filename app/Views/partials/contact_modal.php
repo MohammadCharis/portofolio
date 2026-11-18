@@ -1,56 +1,75 @@
 <!-- =================================================================== -->
   <!-- 7. CONTACT SECTION (For the "Contact" Navbar Item)                  -->
   <!-- =================================================================== -->
-  <section id="contact" class="topo-dark-bg relative z-30 py-24 px-6 sm:px-12 lg:px-20 border-t border-white/10">
-    <div class="max-w-4xl mx-auto text-center">
-      <h2 class="text-4xl sm:text-5xl font-extrabold text-white tracking-tight mb-4">
-        Get In Touch
-      </h2>
-      <p class="text-slate-300 max-w-xl mx-auto text-base sm:text-lg mb-10">
-        Tertarik untuk berkolaborasi dalam pengembangan web, UI/UX design, atau proyek teknologi lainnya? Kirimkan pesan langsung di bawah ini.
-      </p>
+  <section id="contact" class="topo-light-bg relative z-30 py-24">
+    <div class="max-w-6xl mx-auto px-10 sm:px-20 lg:px-28">
+      <div class="text-center mb-[6.5rem]">
+        <h2 class="text-4xl sm:text-5xl font-extrabold tracking-tight">
+          <span class="text-slate-900">Hubungi</span> <span class="text-[#2563eb]">Saya</span>
+        </h2>
+      </div>
+      <div class="grid grid-cols-1 lg:grid-cols-5 gap-7 items-start">
+      <div class="lg:col-span-2 space-y-7">
+        <form onsubmit="handleContactSubmit(event)" class="bg-white rounded-3xl p-8 shadow-[0_12px_35px_rgba(15,23,42,0.12)] space-y-4">
+          <h2 class="text-3xl font-extrabold text-[#2563eb] mb-2">Hubungi</h2>
+          <p class="text-slate-600 leading-relaxed mb-5">Ada yang mau didiskusikan? Langsung kirim pesan aja ya..!</p>
+          <div class="relative">
+            <svg class="pointer-events-none absolute left-4 top-1/2 w-5 h-5 -translate-y-1/2 text-slate-500" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19a6 6 0 0 0-6 0m3-9a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z" /></svg>
+            <input type="text" id="contact-name" required placeholder="Nama Anda" class="w-full px-4 py-3 pl-12 rounded-xl bg-slate-200/60 border-0 text-slate-900 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500" />
+          </div>
+          <div class="relative">
+            <svg class="pointer-events-none absolute left-4 top-1/2 w-5 h-5 -translate-y-1/2 text-slate-500" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8.5 12 14l9-5.5M5 19h14a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2Z" /></svg>
+            <input type="email" id="contact-email" required placeholder="Email Anda" class="w-full px-4 py-3 pl-12 rounded-xl bg-slate-200/60 border-0 text-slate-900 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500" />
+          </div>
+          <div class="relative">
+            <svg class="pointer-events-none absolute left-4 top-4 w-5 h-5 text-slate-500" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M4 5h16v11H8l-4 4V5Z" /></svg>
+            <textarea id="contact-msg" rows="4" required placeholder="Pesan Anda" class="w-full px-4 py-3 pl-12 rounded-xl bg-slate-200/60 border-0 text-slate-900 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+          </div>
+          <button type="submit" class="w-full py-3.5 rounded-xl bg-[#2563eb] hover:bg-blue-500 text-white font-bold text-sm shadow-[0_8px_20px_rgba(37,99,235,0.3)] transition-all flex items-center justify-center gap-2">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="m22 2-7 20-4-9-9-4 20-7Z" /><path stroke-linecap="round" stroke-linejoin="round" d="M22 2 11 13" /></svg>
+            Kirim Pesan
+          </button>
+          <p id="contact-feedback" class="text-xs font-semibold text-emerald-600 text-center hidden">Terima kasih! Pesan kamu telah berhasil dikirim.</p>
+        </form>
+        <div class="bg-white rounded-3xl p-8 shadow-[0_12px_35px_rgba(15,23,42,0.12)]">
+          <h2 class="text-2xl font-extrabold text-slate-900 mb-6">Find Me</h2>
+          <div class="space-y-3 text-sm font-semibold text-slate-700">
+            <a href="https://linkedin.com/in/username" target="_blank" rel="noopener noreferrer" class="flex justify-between border-b border-slate-100 pb-3">LinkedIn <span class="text-slate-400">↗</span></a>
+            <a href="https://instagram.com/username" target="_blank" rel="noopener noreferrer" class="flex justify-between border-b border-slate-100 pb-3">Instagram <span class="text-slate-400">↗</span></a>
+            <a href="https://github.com/username" target="_blank" rel="noopener noreferrer" class="flex justify-between">GitHub <span class="text-slate-400">↗</span></a>
+          </div>
+        </div>
+      </div>
 
-      <form onsubmit="handleContactSubmit(event)" class="max-w-xl mx-auto bg-[#0d1829]/80 border border-white/15 backdrop-blur-xl rounded-3xl p-7 sm:p-9 text-left shadow-2xl space-y-5">
-        <div>
-          <label class="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-2">Nama Lengkap</label>
-          <input
-            type="text"
-            id="contact-name"
-            required
-            placeholder="Mohammad Charis"
-            class="w-full px-4 py-3 rounded-xl bg-slate-900/90 border border-white/10 text-white text-sm focus:outline-none focus:border-blue-500"
-          />
+      <div class="lg:col-span-3 space-y-7">
+        <form onsubmit="handleContactSubmit(event)" class="bg-white rounded-3xl p-8 shadow-[0_12px_35px_rgba(15,23,42,0.12)] space-y-5">
+          <h2 class="text-2xl font-extrabold text-slate-900 pb-5 border-b border-slate-100">Tulis Komentar</h2>
+          <div>
+            <label class="block text-sm font-bold text-slate-700 mb-2">Nama</label>
+            <input type="text" id="comment-name" required placeholder="Masukkan nama kamu" class="w-full px-4 py-3 rounded-xl bg-slate-200/60 border-0 text-slate-900 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500" />
+          </div>
+          <div>
+            <label class="block text-sm font-bold text-slate-700 mb-2">Komentar</label>
+            <textarea id="comment-msg" rows="5" required placeholder="Tulis komentar kamu di sini..." class="w-full px-4 py-3 rounded-xl bg-slate-200/60 border-0 text-slate-900 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+          </div>
+          <div>
+            <label class="block text-sm font-bold text-slate-700 mb-2">Foto Profil <span class="font-normal text-slate-400">(opsional)</span></label>
+            <label class="flex items-center justify-center gap-2 w-full px-4 py-3 rounded-xl bg-slate-200/60 text-slate-700 text-sm cursor-pointer hover:bg-slate-200 transition-colors">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16.5V19a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2.5M12 3v12m0-12 4 4m-4-4-4 4" /></svg>
+              <span id="comment-photo-label">Pilih Foto Profil</span>
+              <input type="file" id="comment-photo" accept="image/*" class="hidden" onchange="document.getElementById('comment-photo-label').textContent = this.files[0]?.name || 'Pilih Foto Profil'" />
+            </label>
+            <p class="text-center text-xs text-slate-400 mt-2">Maksimal ukuran file: 5MB</p>
+          </div>
+          <button type="submit" class="w-full py-3.5 rounded-xl bg-[#2563eb] hover:bg-blue-500 text-white font-bold text-sm transition-all">Kirim Komentar</button>
+          <p id="contact-feedback" class="text-xs font-semibold text-emerald-600 text-center hidden">Terima kasih! Pesan kamu telah berhasil dikirim.</p>
+        </form>
+        <div class="bg-white rounded-3xl p-8 shadow-[0_12px_35px_rgba(15,23,42,0.12)]">
+          <h2 class="text-2xl font-extrabold text-slate-900 pb-5 border-b border-slate-100">Komentar <span class="text-[#2563eb]">(0)</span></h2>
+          <div class="py-10 text-center text-slate-400 text-sm">Belum ada komentar.</div>
         </div>
-        <div>
-          <label class="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-2">Email</label>
-          <input
-            type="email"
-            id="contact-email"
-            required
-            placeholder="nama@email.com"
-            class="w-full px-4 py-3 rounded-xl bg-slate-900/90 border border-white/10 text-white text-sm focus:outline-none focus:border-blue-500"
-          />
-        </div>
-        <div>
-          <label class="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-2">Pesan</label>
-          <textarea
-            id="contact-msg"
-            rows="3"
-            required
-            placeholder="Tulis pesan atau ajakan kolaborasi..."
-            class="w-full px-4 py-3 rounded-xl bg-slate-900/90 border border-white/10 text-white text-sm focus:outline-none focus:border-blue-500"
-          ></textarea>
-        </div>
-        <button
-          type="submit"
-          class="w-full py-3.5 rounded-xl bg-[#2563eb] hover:bg-blue-500 text-white font-bold text-sm shadow-[0_8px_25px_rgba(37,99,235,0.5)] transition-all"
-        >
-          Kirim Pesan
-        </button>
-        <p id="contact-feedback" class="text-xs font-semibold text-emerald-400 text-center hidden">
-          Terima kasih! Pesan kamu telah berhasil dikirim.
-        </p>
-      </form>
+      </div>
+      </div>
     </div>
   </section>
 
