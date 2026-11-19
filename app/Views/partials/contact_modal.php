@@ -1,7 +1,7 @@
 <!-- =================================================================== -->
   <!-- 7. CONTACT SECTION (For the "Contact" Navbar Item)                  -->
   <!-- =================================================================== -->
-  <section id="contact" class="topo-light-bg relative z-30 py-24">
+  <section id="contact" class="topo-light-bg relative z-30 pt-24 pb-6">
     <div class="max-w-6xl mx-auto px-10 sm:px-20 lg:px-28">
       <div class="text-center mb-[6.5rem]">
         <h2 class="text-4xl sm:text-5xl font-extrabold tracking-tight">
@@ -33,10 +33,23 @@
         </form>
         <div class="bg-white rounded-3xl p-8 shadow-[0_12px_35px_rgba(15,23,42,0.12)]">
           <h2 class="text-2xl font-extrabold text-slate-900 mb-6">Find Me</h2>
-          <div class="space-y-3 text-sm font-semibold text-slate-700">
-            <a href="https://linkedin.com/in/username" target="_blank" rel="noopener noreferrer" class="flex justify-between border-b border-slate-100 pb-3">LinkedIn <span class="text-slate-400">↗</span></a>
-            <a href="https://instagram.com/username" target="_blank" rel="noopener noreferrer" class="flex justify-between border-b border-slate-100 pb-3">Instagram <span class="text-slate-400">↗</span></a>
-            <a href="https://github.com/username" target="_blank" rel="noopener noreferrer" class="flex justify-between">GitHub <span class="text-slate-400">↗</span></a>
+          <div class="space-y-3 text-slate-700">
+            <a href="https://www.linkedin.com/in/mohammad-charis-rozikin-370382447" target="_blank" rel="noopener noreferrer" class="flex items-center gap-3 border-b border-slate-100 pb-3 hover:text-[#2563eb]">
+              <img src="<?= base_url('assets/images/in.png') ?>" alt="LinkedIn" class="w-8 h-8 rounded-lg object-contain" />
+              <span class="flex-1"><strong class="block text-sm">Let's Connect</strong><small class="block text-xs text-slate-400">Mohammad Charis</small></span><svg class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5h5v5M19 5l-8 8" /><path stroke-linecap="round" stroke-linejoin="round" d="M19 13v4a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h4" /></svg>
+            </a>
+            <a href="https://www.instagram.com/mohammadcharis_/" target="_blank" rel="noopener noreferrer" class="flex items-center gap-3 border-b border-slate-100 pb-3 hover:text-[#2563eb]">
+              <img src="<?= base_url('assets/images/instagram.png') ?>" alt="Instagram" class="w-8 h-8 rounded-lg object-contain" />
+              <span class="flex-1"><strong class="block text-sm">Instagram</strong><small class="block text-xs text-slate-400">@Mmohammadcharis_</small></span><svg class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5h5v5M19 5l-8 8" /><path stroke-linecap="round" stroke-linejoin="round" d="M19 13v4a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h4" /></svg>
+            </a>
+            <a href="https://github.com/MohammadCharis" target="_blank" rel="noopener noreferrer" class="flex items-center gap-3 border-b border-slate-100 pb-3 hover:text-[#2563eb]">
+              <img src="<?= base_url('assets/images/github.png') ?>" alt="GitHub" class="w-8 h-8 rounded-lg object-contain" />
+              <span class="flex-1"><strong class="block text-sm">GitHub</strong><small class="block text-xs text-slate-400">@MohammadCharis</small></span><svg class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5h5v5M19 5l-8 8" /><path stroke-linecap="round" stroke-linejoin="round" d="M19 13v4a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h4" /></svg>
+            </a>
+            <a href="https://tiktok.com/@corzz" target="_blank" rel="noopener noreferrer" class="flex items-center gap-3 hover:text-[#2563eb]">
+              <img src="<?= base_url('assets/images/tiktok.png') ?>" alt="TikTok" class="w-8 h-8 rounded-lg object-contain" />
+              <span class="flex-1"><strong class="block text-sm">TikTok</strong><small class="block text-xs text-slate-400">@corzz</small></span><svg class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5h5v5M19 5l-8 8" /><path stroke-linecap="round" stroke-linejoin="round" d="M19 13v4a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h4" /></svg>
+            </a>
           </div>
         </div>
       </div>
@@ -61,7 +74,10 @@
             </label>
             <p class="text-center text-xs text-slate-400 mt-2">Maksimal ukuran file: 5MB</p>
           </div>
-          <button type="submit" class="w-full py-3.5 rounded-xl bg-[#2563eb] hover:bg-blue-500 text-white font-bold text-sm transition-all">Kirim Komentar</button>
+          <button type="submit" class="w-full py-3.5 rounded-xl bg-[#2563eb] hover:bg-blue-500 text-white font-bold text-sm transition-all flex items-center justify-center gap-2">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="m22 2-7 20-4-9-9-4 20-7Z" /><path stroke-linecap="round" stroke-linejoin="round" d="M22 2 11 13" /></svg>
+            Kirim Komentar
+          </button>
           <p id="contact-feedback" class="text-xs font-semibold text-emerald-600 text-center hidden">Terima kasih! Pesan kamu telah berhasil dikirim.</p>
         </form>
         <div class="bg-white rounded-3xl p-8 shadow-[0_12px_35px_rgba(15,23,42,0.12)]">
@@ -69,6 +85,9 @@
           <div class="py-10 text-center text-slate-400 text-sm">Belum ada komentar.</div>
         </div>
       </div>
+      </div>
+      <div class="mt-16 pt-5 border-t border-slate-200 text-center text-xs text-slate-500">
+        © 2026 Mohammad Charis™. All Rights Reserved.
       </div>
     </div>
   </section>
