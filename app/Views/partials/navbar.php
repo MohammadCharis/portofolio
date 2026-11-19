@@ -1,5 +1,5 @@
 <!-- FLOATING TOP NAVBAR WITH CUTE MASCOT (Matches all photos) -->
-<header class="fixed top-0 left-1/2 -translate-x-1/2 z-50 select-none">
+<header class="fixed top-0 left-1/2 -translate-x-1/2 z-50 select-none w-[calc(100%-1rem)] sm:w-auto">
   <div class="relative pt-6">
     <!-- Cute Floating Mascot above active tab -->
     <div id="nav-mascot"
@@ -23,30 +23,30 @@
 
     <!-- Pill Navigation Container -->
     <nav id="main-nav" class="
-        flex items-center gap-1.5 sm:gap-2 px-2.5 py-2 rounded-full
+        flex items-center justify-center gap-0.5 sm:gap-2 px-1.5 sm:px-2.5 py-1.5 sm:py-2 rounded-full w-full sm:w-max
         bg-white/10 border border-white/30 backdrop-blur-sm
         shadow-[0_12px_36px_rgba(0,0,0,0.55)] transition-colors duration-300
       ">
       <button data-nav="home" onclick="navigateToSection('home')" class="
-          nav-btn relative px-5 sm:px-6 py-2 rounded-full text-xs sm:text-sm font-bold tracking-wide transition-all duration-300
+          nav-btn relative flex-1 min-w-0 px-2 sm:px-6 py-2 rounded-full text-[10px] sm:text-sm font-bold tracking-wide transition-all duration-300 whitespace-nowrap
           bg-blue-600 text-white shadow-[0_0_25px_rgba(37,99,235,0.95)]
         ">
         Home
       </button>
       <button data-nav="about" onclick="navigateToSection('about')" class="
-          nav-btn relative px-5 sm:px-6 py-2 rounded-full text-xs sm:text-sm font-bold tracking-wide transition-all duration-300
+          nav-btn relative flex-1 min-w-0 px-2 sm:px-6 py-2 rounded-full text-[10px] sm:text-sm font-bold tracking-wide transition-all duration-300 whitespace-nowrap
           text-white/90 hover:text-white
         ">
         About
       </button>
       <button data-nav="portfolio" onclick="navigateToSection('portfolio')" class="
-          nav-btn relative px-5 sm:px-6 py-2 rounded-full text-xs sm:text-sm font-bold tracking-wide transition-all duration-300
+          nav-btn relative flex-1 min-w-0 px-2 sm:px-6 py-2 rounded-full text-[10px] sm:text-sm font-bold tracking-wide transition-all duration-300 whitespace-nowrap
           text-white/90 hover:text-white
         ">
         Portfolio
       </button>
       <button data-nav="contact" onclick="navigateToSection('contact')" class="
-          nav-btn relative px-5 sm:px-6 py-2 rounded-full text-xs sm:text-sm font-bold tracking-wide transition-all duration-300
+          nav-btn relative flex-1 min-w-0 px-2 sm:px-6 py-2 rounded-full text-[10px] sm:text-sm font-bold tracking-wide transition-all duration-300 whitespace-nowrap
           text-white/90 hover:text-white
         ">
         Contact

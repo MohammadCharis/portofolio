@@ -1,5 +1,5 @@
 <!-- 2. ABOUT ME HEADING + BIO & SPIDER-MAN HOVER PORTRAIT (Photo 6 & Photo 3) -->
-<section id="about" class="max-w-6xl mx-auto px-10 sm:px-20 lg:px-28 pt-28 pb-32">
+<section id="about" class="max-w-6xl mx-auto px-5 sm:px-10 lg:px-28 pt-24 sm:pt-28 pb-24 sm:pb-32">
   <!-- Photo 6: "About Me" Large Centered Heading -->
   <div class="text-center mb-10 sm:mb-36">
     <h2 class="text-4xl sm:text-5xl md:text-6xl font-extrabold text-white tracking-tight">

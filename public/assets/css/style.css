@@ -175,3 +175,48 @@ body {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+@media (max-width: 640px) {
+  .hero-title-wrap h1 {
+    max-width: calc(100vw - 2rem);
+    margin-inline: auto;
+  }
+
+  #portrait-container {
+    width: min(78vw, 290px);
+  }
+
+  #edu-timeline-list,
+  #exp-timeline-list {
+    padding-left: 2.75rem;
+  }
+
+  #edu-timeline-list::before,
+  #exp-timeline-list::before {
+    left: 1rem;
+  }
+
+  .folder-card {
+    max-width: min(360px, 88vw);
+  }
+
+  #contact form,
+  #contact > div > div > div {
+    min-width: 0;
+  }
+
+  #main-nav {
+    width: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

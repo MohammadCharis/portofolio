@@ -474,7 +474,7 @@ function updateNavbarUI(activeId, isLight) {
   buttons.forEach((btn) => {
     const id = btn.getAttribute('data-nav');
     if (id === activeId) {
-      btn.className = 'nav-btn relative px-5 sm:px-6 py-2 rounded-full text-xs sm:text-sm font-bold tracking-wide transition-all duration-300 bg-[#2563eb] text-white shadow-[0_0_25px_rgba(37,99,235,0.9)]';
+      btn.className = 'nav-btn relative flex-1 min-w-0 px-2 sm:px-6 py-2 rounded-full text-[10px] sm:text-sm font-bold tracking-wide transition-all duration-300 whitespace-nowrap bg-[#2563eb] text-white shadow-[0_0_25px_rgba(37,99,235,0.9)]';
       // Position mascot centered above active button
       const navRect = mainNav.getBoundingClientRect();
       const btnRect = btn.getBoundingClientRect();
@@ -482,8 +482,8 @@ function updateNavbarUI(activeId, isLight) {
       navMascot.style.left = `${centerOffset}px`;
     } else {
       btn.className = isLight
-        ? 'nav-btn relative px-5 sm:px-6 py-2 rounded-full text-xs sm:text-sm font-bold tracking-wide transition-all duration-300 text-slate-800 hover:text-blue-600'
-        : 'nav-btn relative px-5 sm:px-6 py-2 rounded-full text-xs sm:text-sm font-bold tracking-wide transition-all duration-300 text-white/90 hover:text-white';
+        ? 'nav-btn relative flex-1 min-w-0 px-2 sm:px-6 py-2 rounded-full text-[10px] sm:text-sm font-bold tracking-wide transition-all duration-300 whitespace-nowrap text-slate-800 hover:text-blue-600'
+        : 'nav-btn relative flex-1 min-w-0 px-2 sm:px-6 py-2 rounded-full text-[10px] sm:text-sm font-bold tracking-wide transition-all duration-300 whitespace-nowrap text-white/90 hover:text-white';
     }
   });
 }

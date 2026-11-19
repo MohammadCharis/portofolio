@@ -1,7 +1,7 @@
 <!-- =================================================================== -->
     <!-- 4. INTERACTIVE 3D GLASS FOLDER CARDS SECTION (Photo 5 & image_c591f5)-->
     <!-- =================================================================== -->
-    <section id="folders-section" class="max-w-6xl mx-auto px-10 sm:px-20 lg:px-28 pt-28 pb-32">
+    <section id="folders-section" class="max-w-6xl mx-auto px-5 sm:px-10 lg:px-28 pt-24 sm:pt-28 pb-24 sm:pb-32">
       <!-- Shared SVG ClipPath & Gradients for Exact Curved Folder Geometry -->
       <svg width="0" height="0" class="absolute pointer-events-none">
         <defs>

@@ -1,7 +1,7 @@
 <!-- =================================================================== -->
     <!-- 3. EDUCATION & EXPERIENCE TIMELINE SECTION (Photo 4 & image_99237a) -->
     <!-- =================================================================== -->
-    <section id="timeline-section" class="max-w-6xl mx-auto px-10 sm:px-20 lg:px-28 py-20">
+    <section id="timeline-section" class="max-w-6xl mx-auto px-5 sm:px-10 lg:px-28 py-16 sm:py-20">
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-14 lg:gap-16">
 
         <!-- LEFT COLUMN: EDUCATION -->

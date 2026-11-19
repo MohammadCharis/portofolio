@@ -1,16 +1,16 @@
 <!-- =================================================================== -->
   <!-- 7. CONTACT SECTION (For the "Contact" Navbar Item)                  -->
   <!-- =================================================================== -->
-  <section id="contact" class="topo-light-bg relative z-30 pt-24 pb-6">
-    <div class="max-w-6xl mx-auto px-10 sm:px-20 lg:px-28">
-      <div class="text-center mb-[6.5rem]">
+  <section id="contact" class="topo-light-bg relative z-30 pt-20 sm:pt-24 pb-6">
+    <div class="max-w-6xl mx-auto px-5 sm:px-10 lg:px-28">
+      <div class="text-center mb-12 sm:mb-[6.5rem]">
         <h2 class="text-4xl sm:text-5xl font-extrabold tracking-tight">
           <span class="text-slate-900">Hubungi</span> <span class="text-[#2563eb]">Saya</span>
         </h2>
       </div>
       <div class="grid grid-cols-1 lg:grid-cols-5 gap-7 items-start">
         <div class="lg:col-span-2 space-y-7">
-        <form onsubmit="handleContactSubmit(event)" class="bg-white rounded-3xl p-8 shadow-[0_8px_22px_rgba(15,23,42,0.28)] space-y-4">
+        <form onsubmit="handleContactSubmit(event)" class="bg-white rounded-3xl p-5 sm:p-8 shadow-[0_8px_22px_rgba(15,23,42,0.28)] space-y-4">
           <h2 class="text-3xl font-extrabold text-[#2563eb] mb-2">Hubungi</h2>
           <p class="text-slate-600 leading-relaxed mb-5">Ada yang mau didiskusikan? Langsung kirim pesan aja ya..!</p>
           <div class="relative">
@@ -31,7 +31,7 @@
           </button>
           <p id="contact-feedback" class="text-xs font-semibold text-emerald-600 text-center hidden">Terima kasih! Pesan kamu telah berhasil dikirim.</p>
         </form>
-        <div class="bg-white rounded-3xl p-8 shadow-[0_8px_22px_rgba(15,23,42,0.28)]">
+        <div class="bg-white rounded-3xl p-5 sm:p-8 shadow-[0_8px_22px_rgba(15,23,42,0.28)]">
           <h2 class="text-2xl font-extrabold text-slate-900 mb-6">Find Me</h2>
           <div class="space-y-3 text-slate-700">
             <a href="https://www.linkedin.com/in/mohammad-charis-rozikin-370382447" target="_blank" rel="noopener noreferrer" class="flex items-center gap-3 border-b border-slate-100 pb-3 hover:text-[#2563eb]">
@@ -55,7 +55,7 @@
       </div>
 
       <div class="lg:col-span-3 space-y-7">
-        <form onsubmit="handleContactSubmit(event)" class="bg-white rounded-3xl p-8 shadow-[0_8px_22px_rgba(15,23,42,0.28)] space-y-5">
+        <form onsubmit="handleContactSubmit(event)" class="bg-white rounded-3xl p-5 sm:p-8 shadow-[0_8px_22px_rgba(15,23,42,0.28)] space-y-5">
           <h2 class="text-2xl font-extrabold text-slate-900 pb-5 border-b border-slate-100">Tulis Komentar</h2>
           <div>
             <label class="block text-sm font-bold text-slate-700 mb-2">Nama</label>
@@ -80,7 +80,7 @@
           </button>
           <p id="contact-feedback" class="text-xs font-semibold text-emerald-600 text-center hidden">Terima kasih! Pesan kamu telah berhasil dikirim.</p>
         </form>
-        <div class="bg-white rounded-3xl p-8 shadow-[0_8px_22px_rgba(15,23,42,0.28)]">
+        <div class="bg-white rounded-3xl p-5 sm:p-8 shadow-[0_8px_22px_rgba(15,23,42,0.28)]">
           <h2 class="text-2xl font-extrabold text-slate-900 pb-5 border-b border-slate-100">Komentar <span class="text-[#2563eb]">(0)</span></h2>
           <div class="py-10 text-center text-slate-400 text-sm">Belum ada komentar.</div>
         </div>
