@@ -9,10 +9,10 @@
   'use strict';
 
   // ====== PENGATURAN (silakan diubah) ======
-  var FPS   = 24;    // makin kecil makin ringan (20-30 sudah halus)
+  var FPS   = 20;    // makin kecil makin ringan (20-30 sudah halus)
   var CELL  = 10;    // ukuran sel grid (px). Dengan kurva mulus, 10-14 sudah cukup
   var SPEED = 0.35;  // kecepatan gerak. 0.2 = sangat pelan, 1 = cepat
-  var SCALE = 1.8;   // ukuran pola. Makin besar angkanya makin kecil polanya
+  var SCALE = 2.4;   // ukuran pola. Makin besar angkanya makin kecil polanya
   var STEP  = 0.4;   // jarak antar garis kontur. Makin kecil makin rapat
   var FADE_TOP    = 0;   // pudar bawaan untuk SEMUA section (px). 0 = tanpa pudar. Per section: data-topo-fade="400"
   var FADE_BOTTOM = 0;   // pudar di bagian bawah section (px). 0 = tidak ada
