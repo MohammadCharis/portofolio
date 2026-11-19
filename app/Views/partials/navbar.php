@@ -24,7 +24,7 @@
     <!-- Pill Navigation Container -->
     <nav id="main-nav" class="
         flex items-center gap-1.5 sm:gap-2 px-2.5 py-2 rounded-full
-        bg-[#0d1829]/75 border border-white/15 backdrop-blur-xl
+        bg-white/10 border border-white/30 backdrop-blur-sm
         shadow-[0_12px_36px_rgba(0,0,0,0.55)] transition-colors duration-300
       ">
       <button data-nav="home" onclick="navigateToSection('home')" class="

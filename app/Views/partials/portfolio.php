@@ -14,7 +14,7 @@
       <!-- Centered White Rounded Tab Switcher (Projects | Certificates | Awards) -->
       <div class="max-w-[740px] mx-auto px-4">
         <div class="
-          bg-white rounded-[20px] p-2 shadow-[0_10px_35px_rgba(15,23,42,0.08)]
+          bg-white rounded-[20px] p-2 shadow-[0_8px_22px_rgba(15,23,42,0.23)]
           border border-slate-100 grid grid-cols-3 gap-2
         ">
           <!-- Tab: Projects -->

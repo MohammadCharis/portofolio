@@ -29,21 +29,8 @@ body {
     background-position: 50% 0%;
   }
 }
-.topo-dark-bg {
-  background-color: #030914;
-  background-image: url("../images/topo_dark_bg.webp");
-  background-size: 106% auto;
-  background-repeat: repeat-y;
-  animation: topoSubtleSway 12s ease-in-out infinite;
-}
-
-.topo-light-bg {
-  background-color: #fafafa;
-  background-image: url("../images/topo_light_bg.webp");
-  background-size: 106% auto;
-  background-repeat: repeat-y;
-  animation: topoSubtleSway 12s ease-in-out infinite;
-}
+.topo-dark-bg  { background-color: #030914; }
+.topo-light-bg { background-color: #fafafa; }
 
 /* Mascot Floating Animation */
 @keyframes mascotBob {

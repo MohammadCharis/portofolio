@@ -24,7 +24,7 @@
   <?= $this->include('partials/home') ?>
 
   <!-- Wrapper Background Garis Kontur Gelap -->
-  <div class="topo-dark-bg relative z-20">
+  <div class="topo-dark-bg relative z-20" data-topo-fade="400">
     <!-- 3. Section About Me & Foto Hover Spider-Man -->
     <?= $this->include('partials/about') ?>
 
@@ -45,6 +45,7 @@
   <script>
     const BASE_IMG = "<?= rtrim(base_url('assets/images'), '/') ?>/";
   </script>
+   <script src="<?= base_url('assets/js/topo.js') ?>"></script>
   <script src="<?= base_url('assets/js/script.js') ?>"></script>
 </body>
 

@@ -250,9 +250,9 @@
       <div class="sticky top-0 h-screen w-full overflow-hidden flex items-center justify-center">
         <!-- White flash overlay that fades in as PORTOFOLIO scales up -->
         <div
-          id="zoom-white-flash"
-          class="absolute inset-0 bg-[#f8fafc] opacity-0 pointer-events-none transition-opacity duration-75 z-10"
-        ></div>
+  id="zoom-white-flash"
+  class="absolute inset-0 topo-light-bg opacity-0 pointer-events-none transition-opacity duration-75 z-10"
+></div>
 
         <!-- Massive Bold "PORTOFOLIO" Text (Photo 8) -->
         <h2

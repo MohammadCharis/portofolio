@@ -427,12 +427,15 @@ function updateScrollAnimations() {
       zoomText.style.transform = `scale(${scale.toFixed(3)})`;
       const flashOpacity = Math.max(0, (zoomProgress - 0.45) / 0.55);
       zoomFlash.style.opacity = flashOpacity.toFixed(3);
+      zoomText.style.opacity = Math.max(0, 1 - flashOpacity * 1.8).toFixed(3);   // BARU
     } else if (rect.top > 0) {
       zoomText.style.transform = 'scale(1)';
       zoomFlash.style.opacity = '0';
+      zoomText.style.opacity = '1';                                              // BARU
     } else {
       zoomText.style.transform = 'scale(17)';
       zoomFlash.style.opacity = '1';
+      zoomText.style.opacity = '0';                                              // BARU
     }
   }
 
@@ -447,6 +450,7 @@ function updateScrollAnimations() {
 
   if (contactRect.top < window.innerHeight * 0.45) {
     activeSection = 'contact';
+    isLightModeNav = true;
   } else if (portfolioRect.top < window.innerHeight * 0.55) {
     activeSection = 'portfolio';
     isLightModeNav = true;
@@ -462,9 +466,9 @@ function updateScrollAnimations() {
 function updateNavbarUI(activeId, isLight) {
   const buttons = mainNav.querySelectorAll('.nav-btn');
   if (isLight) {
-    mainNav.className = 'flex items-center gap-1.5 sm:gap-2 px-2.5 py-2 rounded-full bg-white/95 border border-slate-200/90 backdrop-blur-xl shadow-[0_10px_30px_rgba(15,23,42,0.1)] transition-colors duration-300';
+    mainNav.className = 'flex items-center gap-1.5 sm:gap-2 px-2.5 py-2 rounded-full bg-white/10 border border-white/30 backdrop-blur-sm shadow-[0_10px_30px_rgba(15,23,42,0.12)] transition-colors duration-300';
   } else {
-    mainNav.className = 'flex items-center gap-1.5 sm:gap-2 px-2.5 py-2 rounded-full bg-[#0d1829]/75 border border-white/15 backdrop-blur-xl shadow-[0_12px_36px_rgba(0,0,0,0.55)] transition-colors duration-300';
+    mainNav.className = 'flex items-center gap-1.5 sm:gap-2 px-2.5 py-2 rounded-full bg-white/10 border border-white/30 backdrop-blur-sm shadow-[0_10px_30px_rgba(15,23,42,0.12)] transition-colors duration-300';
   }
 
   buttons.forEach((btn) => {
@@ -539,3 +543,5 @@ window.addEventListener('DOMContentLoaded', () => {
   renderPortfolioCards('projects');
   updateScrollAnimations();
 });
+
+
